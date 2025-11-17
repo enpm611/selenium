@@ -17,7 +17,7 @@ class TestScheduleOfClasses(unittest.TestCase):
         """
         
         course_id:str = 'ENPM611'
-        year:int = 2024
+        year:int = 2025
         term:str = 'Fall'
         
         soc_src:str = self.scraper.get_schedule_of_classes_page(course_id,year,term)
